@@ -98,7 +98,7 @@ namespace file_folder_manager
             }
             else
             {
-                MessageBox.Show("ファイルは指定できません。\nフォルダをドラッグ＆ドロップで指定してください。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("You cannot specify a file.\nSpecify a folder by dragging and dropping.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

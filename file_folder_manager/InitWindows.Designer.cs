@@ -39,7 +39,7 @@
             this.editeTagButton.Name = "editeTagButton";
             this.editeTagButton.Size = new System.Drawing.Size(100, 50);
             this.editeTagButton.TabIndex = 0;
-            this.editeTagButton.Text = "タグ編集";
+            this.editeTagButton.Text = "Tag Editing";
             this.editeTagButton.UseVisualStyleBackColor = true;
             this.editeTagButton.Click += new System.EventHandler(this.editeTagButton_Click);
             // 
@@ -49,7 +49,7 @@
             this.searchFolderButton.Name = "searchFolderButton";
             this.searchFolderButton.Size = new System.Drawing.Size(100, 50);
             this.searchFolderButton.TabIndex = 1;
-            this.searchFolderButton.Text = "フォルダ検索";
+            this.searchFolderButton.Text = "Folder Search";
             this.searchFolderButton.UseVisualStyleBackColor = true;
             this.searchFolderButton.Click += new System.EventHandler(this.searchFolderButton_Click);
             // 
@@ -59,7 +59,7 @@
             this.quitSystemButton.Name = "quitSystemButton";
             this.quitSystemButton.Size = new System.Drawing.Size(100, 50);
             this.quitSystemButton.TabIndex = 2;
-            this.quitSystemButton.Text = "終了";
+            this.quitSystemButton.Text = "Exsit";
             this.quitSystemButton.UseVisualStyleBackColor = true;
             this.quitSystemButton.Click += new System.EventHandler(this.quitSystemButton_Click);
             // 

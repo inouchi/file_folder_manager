@@ -46,7 +46,7 @@
             this.exsitButton.Name = "exsitButton";
             this.exsitButton.Size = new System.Drawing.Size(100, 30);
             this.exsitButton.TabIndex = 0;
-            this.exsitButton.Text = "閉じる";
+            this.exsitButton.Text = "Exsit";
             this.exsitButton.UseVisualStyleBackColor = true;
             this.exsitButton.Click += new System.EventHandler(this.exsitButton_Click);
             // 
@@ -66,9 +66,9 @@
             this.label.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label.Location = new System.Drawing.Point(12, 11);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(170, 13);
+            this.label.Size = new System.Drawing.Size(168, 13);
             this.label.TabIndex = 2;
-            this.label.Text = "< 選択中のファイルフォルダ >";
+            this.label.Text = "< Specified File Folder >";
             // 
             // keywordListView
             // 
@@ -88,9 +88,9 @@
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(12, 93);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 13);
+            this.label1.Size = new System.Drawing.Size(122, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "< キーワード/お気に入り >";
+            this.label1.Text = "< Tag Contents >";
             // 
             // registerButton
             // 
@@ -99,7 +99,7 @@
             this.registerButton.Name = "registerButton";
             this.registerButton.Size = new System.Drawing.Size(100, 30);
             this.registerButton.TabIndex = 5;
-            this.registerButton.Text = "タグ登録";
+            this.registerButton.Text = "Export";
             this.registerButton.UseVisualStyleBackColor = true;
             this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
             // 
@@ -110,7 +110,7 @@
             this.addKeywordButton.Name = "addKeywordButton";
             this.addKeywordButton.Size = new System.Drawing.Size(100, 30);
             this.addKeywordButton.TabIndex = 6;
-            this.addKeywordButton.Text = "キーワード追加";
+            this.addKeywordButton.Text = "Add Keyword";
             this.addKeywordButton.UseVisualStyleBackColor = true;
             this.addKeywordButton.Click += new System.EventHandler(this.addKeywordButton_Click);
             // 
@@ -121,7 +121,7 @@
             this.deleteKeywordButton.Name = "deleteKeywordButton";
             this.deleteKeywordButton.Size = new System.Drawing.Size(100, 30);
             this.deleteKeywordButton.TabIndex = 7;
-            this.deleteKeywordButton.Text = "キーワード削除";
+            this.deleteKeywordButton.Text = "Delete Keywords";
             this.deleteKeywordButton.UseVisualStyleBackColor = true;
             this.deleteKeywordButton.Click += new System.EventHandler(this.deleteKeywordButton_Click);
             // 
@@ -131,9 +131,9 @@
             this.favoriteCheckBox.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.favoriteCheckBox.Location = new System.Drawing.Point(273, 116);
             this.favoriteCheckBox.Name = "favoriteCheckBox";
-            this.favoriteCheckBox.Size = new System.Drawing.Size(107, 17);
+            this.favoriteCheckBox.Size = new System.Drawing.Size(78, 17);
             this.favoriteCheckBox.TabIndex = 8;
-            this.favoriteCheckBox.Text = "お気に入り設定";
+            this.favoriteCheckBox.Text = "Favorited";
             this.favoriteCheckBox.UseVisualStyleBackColor = true;
             // 
             // EditeTagWindows

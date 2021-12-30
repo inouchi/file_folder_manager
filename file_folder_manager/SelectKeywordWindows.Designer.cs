@@ -40,9 +40,9 @@
             this.label.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label.Location = new System.Drawing.Point(12, 20);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(90, 13);
+            this.label.Size = new System.Drawing.Size(87, 13);
             this.label.TabIndex = 1;
-            this.label.Text = "< キーワード >";
+            this.label.Text = "< Keyword >";
             // 
             // okButton
             // 
@@ -60,7 +60,7 @@
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(100, 25);
             this.cancelButton.TabIndex = 4;
-            this.cancelButton.Text = "キャンセル";
+            this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 

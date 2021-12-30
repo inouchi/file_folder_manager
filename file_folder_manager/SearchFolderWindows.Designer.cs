@@ -59,9 +59,9 @@
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 13);
+            this.label1.Size = new System.Drawing.Size(175, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "< 選択中のルートフォルダ >";
+            this.label1.Text = "< Specified Root Folder >";
             // 
             // anyRadioButton
             // 
@@ -69,22 +69,22 @@
             this.anyRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.anyRadioButton.Location = new System.Drawing.Point(15, 88);
             this.anyRadioButton.Name = "anyRadioButton";
-            this.anyRadioButton.Size = new System.Drawing.Size(104, 17);
+            this.anyRadioButton.Size = new System.Drawing.Size(202, 17);
             this.anyRadioButton.TabIndex = 3;
             this.anyRadioButton.TabStop = true;
-            this.anyRadioButton.Text = "いずれかを含む";
+            this.anyRadioButton.Text = " One or More of These Options";
             this.anyRadioButton.UseVisualStyleBackColor = true;
             // 
             // allRadioButton
             // 
             this.allRadioButton.AutoSize = true;
             this.allRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.allRadioButton.Location = new System.Drawing.Point(125, 88);
+            this.allRadioButton.Location = new System.Drawing.Point(223, 88);
             this.allRadioButton.Name = "allRadioButton";
-            this.allRadioButton.Size = new System.Drawing.Size(91, 17);
+            this.allRadioButton.Size = new System.Drawing.Size(140, 17);
             this.allRadioButton.TabIndex = 4;
             this.allRadioButton.TabStop = true;
-            this.allRadioButton.Text = "すべてを含む";
+            this.allRadioButton.Text = "All of These Options";
             this.allRadioButton.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -93,9 +93,9 @@
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.Location = new System.Drawing.Point(12, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.Size = new System.Drawing.Size(134, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "< 検索条件 >";
+            this.label2.Text = "< Search Options >";
             // 
             // favoriteCheckBox
             // 
@@ -103,9 +103,9 @@
             this.favoriteCheckBox.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.favoriteCheckBox.Location = new System.Drawing.Point(472, 116);
             this.favoriteCheckBox.Name = "favoriteCheckBox";
-            this.favoriteCheckBox.Size = new System.Drawing.Size(107, 17);
+            this.favoriteCheckBox.Size = new System.Drawing.Size(78, 17);
             this.favoriteCheckBox.TabIndex = 9;
-            this.favoriteCheckBox.Text = "お気に入り設定";
+            this.favoriteCheckBox.Text = "Favorited";
             this.favoriteCheckBox.UseVisualStyleBackColor = true;
             // 
             // keywordListView
@@ -126,7 +126,7 @@
             this.addKeywordButton.Name = "addKeywordButton";
             this.addKeywordButton.Size = new System.Drawing.Size(100, 30);
             this.addKeywordButton.TabIndex = 11;
-            this.addKeywordButton.Text = "キーワード追加";
+            this.addKeywordButton.Text = "Add Keyword";
             this.addKeywordButton.UseVisualStyleBackColor = true;
             this.addKeywordButton.Click += new System.EventHandler(this.addKeywordButton_Click);
             // 
@@ -137,7 +137,7 @@
             this.deleteKeywordButton.Name = "deleteKeywordButton";
             this.deleteKeywordButton.Size = new System.Drawing.Size(100, 30);
             this.deleteKeywordButton.TabIndex = 12;
-            this.deleteKeywordButton.Text = "キーワード削除";
+            this.deleteKeywordButton.Text = "Delete Keywords";
             this.deleteKeywordButton.UseVisualStyleBackColor = true;
             this.deleteKeywordButton.Click += new System.EventHandler(this.deleteKeywordButton_Click);
             // 
@@ -147,9 +147,9 @@
             this.label3.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.Location = new System.Drawing.Point(12, 231);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 13);
+            this.label3.Size = new System.Drawing.Size(133, 13);
             this.label3.TabIndex = 13;
-            this.label3.Text = "< 検索結果 >";
+            this.label3.Text = "< Search Results >";
             // 
             // exsitButton
             // 
@@ -158,7 +158,7 @@
             this.exsitButton.Name = "exsitButton";
             this.exsitButton.Size = new System.Drawing.Size(100, 30);
             this.exsitButton.TabIndex = 14;
-            this.exsitButton.Text = "閉じる";
+            this.exsitButton.Text = "Exsit";
             this.exsitButton.UseVisualStyleBackColor = true;
             this.exsitButton.Click += new System.EventHandler(this.exsitButton_Click);
             // 
@@ -169,7 +169,7 @@
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(100, 30);
             this.searchButton.TabIndex = 15;
-            this.searchButton.Text = "検索";
+            this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 

@@ -100,7 +100,7 @@ namespace file_folder_manager
             }
             else
             {
-                MessageBox.Show("ファイルは指定できません。\nフォルダをドラッグ＆ドロップで指定してください。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("You cannot specify a file.\nSpecify a folder by dragging and dropping.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             if (mFolders.Count > 0)
@@ -118,7 +118,7 @@ namespace file_folder_manager
             }
             else
             {
-                MessageBox.Show("タグファイルが存在しません。。\nタグファイルがあるルートフォルダをドラッグ＆ドロップで指定してください。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Tag files do not exist.\nSpecify a root folder where has tag.json files by dragging and dropping.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
         }
@@ -302,7 +302,7 @@ namespace file_folder_manager
 
             if (res.Count == 0)
             {
-                MessageBox.Show("条件を満たすフォルダが見つかりませんでした。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("A folder that meets the conditions was not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
