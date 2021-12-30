@@ -7,7 +7,7 @@ We can import tag.json files and search for file folders that meet the condition
 ## Tool Windows
 
 ### InitWindows
-- Initial screen for transitioning to EditeTagWindows or EditeTagWindows.
+- Initial screen for transitioning to EditeTagWindows or SearchFolderWindows.
 
 ![InitWindows](data/imgs/InitWindows.PNG)
 
